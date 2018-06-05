@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Static Comp 3</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+  <div class="left-sidebar">
+    <section class="profile-pic">
+      <img src="images/peyton.jpg" class="profile-image" alt="headshot of peyton manning">
+      <p>Peyton Manning</p><img src="images/arrow-down-sign-to-navigate.svg" class="profile-pic-nav">
+    </section>  
+    <section class="home">
+      <article class="sidebar-headings">
+        <p>Home</p>
+      </article>
+      <article class="home-section1" id="hover-state">
+        <img src="images/home.svg" class="home-section-icons">
+        <p class="sidebar-headings">Home</p>
+      </article>
+      <article class="home-section2" id="hover-state">
+        <img src="images/briefcase.svg" class="home-section-icons">
+        <p class="sidebar-headings">Jobs</p>
+      </article>
+      <article class="home-section3" id="hover-state">
+        <img src="images/resume.svg" class="home-section-icons">
+        <p class="sidebar-headings">Resume</p>
+      </article>
+      <article class="home-section4" id="hover-state">
+        <img src="images/list.svg" class="home-section-icons">
+        <p class="sidebar-headings">Task</p>
+      </article>
+      <article class="home-section5" id="hover-state">
+        <img src="images/calendar.svg" class="home-section-icons">
+        <p class="sidebar-headings">Calendar</p>
+      </article>
+      <article class="home-headings">
+      </article>
+    </section>
+    <section class="admin">
+      <article class="admin-section-heading">
+        <p class="admin-headings">Main</p>
+      </article>
+      <article class= "admin-section1" id="hover-state">
+        <img src="images/users.svg" class="admin-icons">
+        <p class="admin-headings">Users</p>
+      </article>
+      <article class="admin-section2" id="hover-state">
+        <img src="images/placeholder.svg" class="admin-icons">
+        <p class="admin-headings">Location</p>
+      </article>
+      <article class="admin-section3" id="hover-state">
+        <img src="images/exit.svg" class="admin-icons">
+        <p class="admin-headings">Workflow</p>
+      </article>
+      <article class="admin-section4" id="hover-state">
+        <img src="images/diagram.svg" class="admin-icons">
+        <p class="admin-headings">Job Boards</p>
+      </article>
+      <article class="admin-section5" id="hover-state">
+        <img src="images/share.svg" class="admin-icons">
+        <p class="admin-headings">Social</p>
+      </article>
+    </section>
+    <section class="categories">
+      <article>
+        <p class="categories-heading">Categories</p>
+      </article>
+      <article class="box-section1" id="hover-state">
+        <img src="images/yellow.svg" class="color-boxes">
+        <p class="categories-heading">Administrative</p>
+      </article>
+      <article class="box-section2" id="hover-state">
+        <img src="images/blue.svg" class="color-boxes">
+        <p class="categories-heading">Design</p>
+      </article>
+      <article class="box-section3" id="hover-state">
+        <img src="images/red.svg" class="color-boxes">
+        <p class="categories-heading">Executive</p>
+      </article>
+      <article class="box-section4" id="hover-state">
+        <img src="images/green.svg" class="color-boxes">
+        <p class="categories-heading">Human Resources</p>
+      </article>
+    </section>
+  </div>    
+  <div class="search-heading">
+    <section class="upper-heading">
+      <article class="left-heading">
+        <img class="search-images" src="images/list-menu.svg">
+        <img class="search-images" id ="right-search-images" src="images/magnifying-glass.svg">
+        <p class="search-bar-placeholder">Search for a job, task, or resume</p>
+      </article>    
+      <article class="right-heading">  
+        <img src="images/add-user.svg" class="right-icons">
+        <img src="images/shopping-list.svg" class="right-icons">
+        <img src="images/dot-matrix.svg" class="right-icons">    
+      </article>
+    </section>  
+    <section class="lower-heading">
+      <section class="top-lower-heading">
+        <article class="left-upper-heading">
+          <h1 class="customer-heading">Customer Service Representative</h1>
+          <p>San Francisco, CA<span class="preview-point">Preview this point</span></p>
+        </article>
+        <article class="right-upper-heading">
+          <img src="images/list-menu.svg" class="summary-icons" id="media-query-icon">
+          <button class="summary-icons" id="summary-icons-button">Open</button>
+          <img src="images/bookmark.svg" class="summary-icons">
+          <img src="images/edit.svg" class="summary-icons">
+          <img src="images/building.svg" class="summary-icons">
+        </article>
+      </section>
+      <section class="bottom-lower-heading">
+        <article class="summary-headings">
+          <p>SUMMARY</p>
+        </article>
+        <article class="summary-headings">
+          <p>APPLICANTS</p>
+        </article>
+        <article class="summary-headings">
+          <p>JOB BOARD</p>
+        </article>
+        <article class="summary-headings">
+          <p>INTERVIEWS</p>
+        </article>
+        <article class="summary-headings">
+          <p>ACTIVITY</p>
+        </article>
+        <article class="summary-headings">
+          <p>BROADCAST</p>
+        </article>
+        <article class="summary-headings">
+          <p>NOTIFICATIONS</p>
+        </article>
+      </section>
+    </section>
+  </div>
+  <div class="graph-section">
+    <section class="left-graphs">
+      <div class=left-graph-button>
+      <!-- <button class="graph-button">Totals out of 5231 views</button> -->
+      </div>
+      <div class="single-chart">
+        <svg viewbox="0 0 36 36" class="circular-chart orange">
+        <path class="circle-bg"
+        d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <path class="circle"
+        stroke-dasharray="30, 100"
+        d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <text x="18" y="20.35" class="percentage">30%</text>
+        </svg>
+      </div>
+      <div class="single-chart">
+        <svg viewbox="0 0 36 36" class="circular-chart green">
+        <path class="circle-bg"
+        d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <path class="circle"
+        stroke-dasharray="60, 100"
+        d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <text x="18" y="20.35" class="percentage">60%</text>
+        </svg>
+      </div>
+      <div class="single-chart">
+        <svg viewbox="0 0 36 36" class="circular-chart blue">
+        <path class="circle-bg"
+        d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <path class="circle"
+        stroke-dasharray="90, 100"
+        d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <text x="18" y="20.35" class="percentage">90%</text>
+        </svg>
+      </div>
+    </section>
+    <section class="right-graphs">
+      <img src="images/area_graph.png" class="right-graph-image">
+      <button>APPLICANTS/DAY</button>
+    </section>
+  </div>
+  <div class="main-content">
+    <section class="bio-content">
+      <article class="job-description">
+        <section class="job-heading">
+         <div class="left-job-content">
+           <p>JOB DESCRIPTION</p>
+         </div>
+         <div class="right-job-content">  
+           <button class="job-content-button">Edit</button>
+         </div>  
+        </section>
+        <section class="position-title">
+          <div class="left-position-title">
+            <p class="main-content-color">POSITION TITLE</p>
+          </div>
+          <div class="right-position-title"> 
+            <p>Customer Service Representative</p>
+          </div>  
+        </section>
+        <section class="location">
+          <div class="left-location">
+            <p class="main-content-color">LOCATION</p>
+          </div>
+          <div class="right-location">
+            <p>San Francisco, CA</p>
+          </div>  
+        </section>
+        <section class="employment-type">
+          <div class="left-employment-type">  
+            <p class="main-content-color">EMPLOYMENT TYPE</p>
+          </div>
+          <div class="right-employment-type"> 
+            <p>Full Time</p>
+          </div>  
+        </section> 
+        <section class="experience">
+          <div class="left-experience">
+            <p class="main-content-color">EXPERIENCE</p>
+          </div>
+          <div class="right-experience">
+            <p>Mid-level</p>  
+          </div>  
+        </section>
+        <section class="status">
+          <div class="left-status">
+            <p class="main-content-color">STATUS</p>
+          </div>
+          <div class="right-status">
+            <p>Open</p> 
+          </div>   
+        </section> 
+        <section class="description">
+          <div class="left-description">
+            <p class="main-content-color">DESCRIPTION</p>
+          </div>
+          <div class="right-description">
+            <p>Bacon ipsum dolor amet ham prosciutto ham hock swine jerky, chuck capicola spare ribs short ribs meatloaf hamburger. T-bone buffalo capicola, fatback hamburger pork loin shankle ham shoulder filet mignon salami meatloaf. Meatball burgdoggen pork loin porchetta turducken short ribs tail capicola strip steak sirloin pastrami brisket shank boudin.</p>
+          </div>   
+        </section>
+        <section class="hiring-lead">
+          <div class="left-hiring">
+            <p class="main-content-color">HIRING LEAD</p>
+          </div>
+          <div class="right-hiring">
+            <img src="images/peyton.jpg" class="hiring-image"><p>Tom Izzy</p>
+          </div>    
+        </section>
+        <section class="approved-salary">
+          <div class="left-salary">
+            <p class="main-content-color">APPROVED SALARY</p>
+          </div>
+          <div class="right-salary">
+            <p>$58,000</p>
+          </div>
+        </section> 
+      </article>
+      <article class="social-media-section">
+       <div class="social-buttons"> 
+        <section class="facebook-icon">
+          <article class="facebook-image">
+            <img src="images/facebook.svg" class="social-media-icons">
+          </article>
+          <article class="facebook-text">
+            <p class="social-media-text-color">Post to Facebook</p>
+          </article>
+        </section>
+        <section class="twitter-icon">
+          <article class="twitter-image">
+            <img src="images/twitter-sign.svg" class="social-media-icons">
+          </article>
+          <article class="twitter-text">
+            <p class="social-media-text-color">Tweet this Job</p>
+          </article>
+        </section>
+        <section class="linked-icon">
+          <article class="linked-image">
+            <img src="images/linkedin-sign.svg" class="social-media-icons">
+          </article>
+          <article class="linked-text">
+              <p class="social-media-text-color">Post to Linkedin</p>
+          </article>
+        </section>
+       </div>
+       <div class="card-ideas"> 
+        <section class="link-idea">
+          <article class="idea-heading">
+            <img src="images/worldwide.svg" class="idea-icons"><span class="idea-headings">Link to This Job</span>
+          </article>
+          <article class="idea-para">
+            <p>Bacon ipsum dolor amet prosciutto boudin kevin porchetta cupim, meatball ground round landjaeger short ribs ribeye.
+            </p>
+          </article>
+          <article class="idea-input">
+            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button">Copy</button>
+          </article>
+        </section>
+        <section class="widget-idea">
+          <article class="idea-heading">
+            <img src="images/circuit-board.svg" class="idea-icons"><span class="idea-headings">Use the button widget</span>
+          </article>
+          <article class="idea-para">  
+            <p>Bacon ipsum dolor amet prosciutto boudin kevin porchetta cupim, meatball ground round landjaeger short ribs ribeye.</p>
+          </article>
+          <article class="idea-input">
+            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button">Copy</button>
+          </article>
+        </section>
+        <section class="email-idea">
+          <article class="idea-heading">
+            <img src="images/sent-mail.svg" class="idea-icons"><span class="idea-headings">Upload resumes by email</span>
+          </article>
+          <article class="idea-para">
+            <p>Bacon ipsum dolor amet prosciutto boudin kevin porchetta cupim, meatball ground round landjaeger short ribs ribeye.</p>
+          </article>
+          <article class="idea-input">
+            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button">Copy</button>
+          </article>
+        </section>
+      </div>  
+      </article>
+    </section>
+  </div>  
+</div>
+</body>
+</html>
