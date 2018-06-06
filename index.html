@@ -6,11 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="container">
-  <div class="left-sidebar">
+<main class="container">
+  <nav class="left-sidebar" role="navigation">
     <section class="profile-pic">
-      <img src="images/peyton.jpg" class="profile-image" alt="headshot of peyton manning">
-      <p>Peyton Manning</p><img src="images/arrow-down-sign-to-navigate.svg" class="profile-pic-nav">
+      <article class="top-profile-section">
+        <img src="images/peyton.jpg" class="profile-image" alt="headshot of peyton manning">
+      </article>
+      <article class="bottom-profile-section">
+        <p class="profile-name-pic">Peyton Manning</p>
+        <img src="images/arrow-down-sign-to-navigate.svg" class="profile-pic-nav">
+      </article>
     </section>  
     <section class="home">
       <article class="sidebar-headings">
@@ -85,8 +90,8 @@
         <p class="categories-heading">Human Resources</p>
       </article>
     </section>
-  </div>    
-  <div class="search-heading">
+  </nav>    
+  <header class="search-heading" role="search-heading">
     <section class="upper-heading">
       <article class="left-heading">
         <img class="search-images" src="images/list-menu.svg">
@@ -113,7 +118,7 @@
           <img src="images/building.svg" class="summary-icons">
         </article>
       </section>
-      <section class="bottom-lower-heading">
+      <section class="bottom-lower-heading" role="heading section">
         <article class="summary-headings">
           <p>SUMMARY</p>
         </article>
@@ -137,138 +142,140 @@
         </article>
       </section>
     </section>
-  </div>
-  <div class="graph-section">
+  </header>
+  <main class="graph-section" role="graph section">
     <section class="left-graphs">
-      <div class=left-graph-button>
-      <!-- <button class="graph-button">Totals out of 5231 views</button> -->
-      </div>
-      <div class="single-chart">
-        <svg viewbox="0 0 36 36" class="circular-chart orange">
-        <path class="circle-bg"
-        d="M18 2.0845
-        a 15.9155 15.9155 0 0 1 0 31.831
-        a 15.9155 15.9155 0 0 1 0 -31.831"/>
-        <path class="circle"
-        stroke-dasharray="30, 100"
-        d="M18 2.0845
-        a 15.9155 15.9155 0 0 1 0 31.831
-        a 15.9155 15.9155 0 0 1 0 -31.831"/>
-        <text x="18" y="20.35" class="percentage">30%</text>
-        </svg>
-      </div>
-      <div class="single-chart">
-        <svg viewbox="0 0 36 36" class="circular-chart green">
-        <path class="circle-bg"
-        d="M18 2.0845
-        a 15.9155 15.9155 0 0 1 0 31.831
-        a 15.9155 15.9155 0 0 1 0 -31.831"/>
-        <path class="circle"
-        stroke-dasharray="60, 100"
-        d="M18 2.0845
-        a 15.9155 15.9155 0 0 1 0 31.831
-        a 15.9155 15.9155 0 0 1 0 -31.831"/>
-        <text x="18" y="20.35" class="percentage">60%</text>
-        </svg>
-      </div>
-      <div class="single-chart">
-        <svg viewbox="0 0 36 36" class="circular-chart blue">
-        <path class="circle-bg"
-        d="M18 2.0845
-        a 15.9155 15.9155 0 0 1 0 31.831
-        a 15.9155 15.9155 0 0 1 0 -31.831"/>
-        <path class="circle"
-        stroke-dasharray="90, 100"
-        d="M18 2.0845
-        a 15.9155 15.9155 0 0 1 0 31.831
-        a 15.9155 15.9155 0 0 1 0 -31.831"/>
-        <text x="18" y="20.35" class="percentage">90%</text>
-        </svg>
-      </div>
+      <aside class="top-circle-graphs">
+        <article class="single-chart">
+          <svg viewbox="0 0 36 36" class="circular-chart orange">
+          <path class="circle-bg"
+          d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          <path class="circle"
+          stroke-dasharray="30, 100"
+          d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          <text x="18" y="20.35" class="percentage">30%</text>
+          </svg>
+        </article>
+        <article class="single-chart">
+          <svg viewbox="0 0 36 36" class="circular-chart green">
+          <path class="circle-bg"
+          d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          <path class="circle"
+          stroke-dasharray="60, 100"
+          d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          <text x="18" y="20.35" class="percentage">60%</text>
+          </svg>
+        </article>
+        <article class="single-chart">
+          <svg viewbox="0 0 36 36" class="circular-chart blue">
+          <path class="circle-bg"
+          d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          <path class="circle"
+          stroke-dasharray="90, 100"
+          d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          <text x="18" y="20.35" class="percentage">90%</text>
+          </svg>
+        </article>
+      </aside> 
+      <aside class="bottom-left-graph-button">
+        <button class="left-graph-button" aria-label="button for left graph">Totals-out of 5321 views</button>
+      </aside>
     </section>
     <section class="right-graphs">
       <img src="images/area_graph.png" class="right-graph-image">
-      <button>APPLICANTS/DAY</button>
+      <button class="right-graph-button" aria-label="button for right graph">APPLICANTS/DAY</button>
     </section>
-  </div>
-  <div class="main-content">
+  </main>
+  <footer class="main-content" role="main-content">
     <section class="bio-content">
       <article class="job-description">
         <section class="job-heading">
-         <div class="left-job-content">
+         <aside class="left-job-content">
            <p>JOB DESCRIPTION</p>
-         </div>
-         <div class="right-job-content">  
+         </aside>
+         <aside class="right-job-content">  
            <button class="job-content-button">Edit</button>
-         </div>  
+         </aside>  
         </section>
         <section class="position-title">
-          <div class="left-position-title">
+          <aside class="left-position-title">
             <p class="main-content-color">POSITION TITLE</p>
-          </div>
-          <div class="right-position-title"> 
-            <p>Customer Service Representative</p>
-          </div>  
+          </aside>
+          <aside class="right-position-title"> 
+            <p class="right-main-content-text">Customer Service Representative</p>
+          </aside>  
         </section>
         <section class="location">
-          <div class="left-location">
+          <aside class="left-location">
             <p class="main-content-color">LOCATION</p>
-          </div>
-          <div class="right-location">
-            <p>San Francisco, CA</p>
-          </div>  
+          </aside>
+          <aside class="right-location">
+            <p class="right-main-content-text">San Francisco, CA</p>
+          </aside>  
         </section>
         <section class="employment-type">
-          <div class="left-employment-type">  
+          <aside class="left-employment-type">  
             <p class="main-content-color">EMPLOYMENT TYPE</p>
-          </div>
-          <div class="right-employment-type"> 
-            <p>Full Time</p>
-          </div>  
+          </aside>
+          <aside class="right-employment-type"> 
+            <p class="right-main-content-text">Full Time</p>
+          </aside>  
         </section> 
         <section class="experience">
-          <div class="left-experience">
+          <aside class="left-experience">
             <p class="main-content-color">EXPERIENCE</p>
-          </div>
-          <div class="right-experience">
-            <p>Mid-level</p>  
-          </div>  
+          </aside>
+          <aside class="right-experience">
+            <p class="right-main-content-text">Mid-level</p>  
+          </aside>  
         </section>
         <section class="status">
-          <div class="left-status">
+          <aside class="left-status">
             <p class="main-content-color">STATUS</p>
-          </div>
-          <div class="right-status">
-            <p>Open</p> 
-          </div>   
+          </aside>
+          <asode class="right-status">
+            <p class="right-main-content-text">Open</p> 
+          </aside>   
         </section> 
         <section class="description">
-          <div class="left-description">
+          <aside class="left-description">
             <p class="main-content-color">DESCRIPTION</p>
-          </div>
-          <div class="right-description">
-            <p>Bacon ipsum dolor amet ham prosciutto ham hock swine jerky, chuck capicola spare ribs short ribs meatloaf hamburger. T-bone buffalo capicola, fatback hamburger pork loin shankle ham shoulder filet mignon salami meatloaf. Meatball burgdoggen pork loin porchetta turducken short ribs tail capicola strip steak sirloin pastrami brisket shank boudin.</p>
-          </div>   
+          </aside>
+          <aside class="right-description">
+            <p class="right-main-content-text">Bacon ipsum dolor amet ham prosciutto ham hock swine jerky, chuck capicola spare ribs short ribs meatloaf hamburger. T-bone buffalo capicola, fatback hamburger pork loin shankle ham shoulder filet mignon salami meatloaf. Meatball burgdoggen pork loin porchetta turducken short ribs tail capicola strip steak sirloin pastrami brisket shank boudin.</p>
+          </aside>   
         </section>
         <section class="hiring-lead">
-          <div class="left-hiring">
+          <aside class="left-hiring">
             <p class="main-content-color">HIRING LEAD</p>
-          </div>
-          <div class="right-hiring">
+          </aside>
+          <aside class="right-hiring">
             <img src="images/peyton.jpg" class="hiring-image"><p>Tom Izzy</p>
-          </div>    
+          </aside>    
         </section>
         <section class="approved-salary">
-          <div class="left-salary">
+          <aside class="left-salary">
             <p class="main-content-color">APPROVED SALARY</p>
-          </div>
-          <div class="right-salary">
-            <p>$58,000</p>
-          </div>
+          </aside>
+          <aside class="right-salary">
+            <p class="right-main-content-text">$58,000</p>
+          </aside>
         </section> 
       </article>
       <article class="social-media-section">
-       <div class="social-buttons"> 
+       <aside class="social-buttons"> 
         <section class="facebook-icon">
           <article class="facebook-image">
             <img src="images/facebook.svg" class="social-media-icons">
@@ -293,9 +300,9 @@
               <p class="social-media-text-color">Post to Linkedin</p>
           </article>
         </section>
-       </div>
-       <div class="card-ideas"> 
-        <section class="link-idea">
+       </aside>
+       <aside class="card-ideas"> 
+         <section class="link-idea">
           <article class="idea-heading">
             <img src="images/worldwide.svg" class="idea-icons"><span class="idea-headings">Link to This Job</span>
           </article>
@@ -304,7 +311,7 @@
             </p>
           </article>
           <article class="idea-input">
-            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button">Copy</button>
+            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button" aria-label="copy button">Copy</button>
           </article>
         </section>
         <section class="widget-idea">
@@ -315,7 +322,7 @@
             <p>Bacon ipsum dolor amet prosciutto boudin kevin porchetta cupim, meatball ground round landjaeger short ribs ribeye.</p>
           </article>
           <article class="idea-input">
-            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button">Copy</button>
+            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button" aria-label="copy-button">Copy</button>
           </article>
         </section>
         <section class="email-idea">
@@ -326,13 +333,13 @@
             <p>Bacon ipsum dolor amet prosciutto boudin kevin porchetta cupim, meatball ground round landjaeger short ribs ribeye.</p>
           </article>
           <article class="idea-input">
-            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button">Copy</button>
+            <input type="text" name="link" class="link-input" placeholder="file:///Users/dennismiller/Documents/stat3/index.html"><button class="link-button" aria-label="copy button">Copy</button>
           </article>
         </section>
-      </div>  
+       </aside>  
       </article>
     </section>
-  </div>  
-</div>
+  </footer>  
+</main>
 </body>
 </html>

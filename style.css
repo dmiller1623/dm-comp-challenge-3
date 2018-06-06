@@ -30,7 +30,6 @@ p {
   "sbar main main main main"
   "sbar main main main main"
   "sbar main main main main";
-
 }
 
 /*sidebarrrrrrrrrrr sectionnnnnnnn*/
@@ -43,7 +42,7 @@ p {
 .profile-image {
   border-radius: 50%;
   border: .2rem solid white;
-  height: 50%;
+  height: 80%;
   width: 50%;
 }
 
@@ -57,8 +56,36 @@ p {
   width: 100%;
 }
 
+.profile-name-pic {
+  margin: 0;
+}
+
+.top-profile-section {
+  align-items: center;
+  display: flex;
+  height: 75%;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom-profile-section {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  justify-content: center;
+  width: 100%;
+}
+
 .profile-pic-nav {
+  margin-left: .3rem;
+  margin-top: .3rem;
   width: 5%;
+}
+
+.profile-pic-nav:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 /*home section !!!!!!*/
@@ -73,78 +100,58 @@ p {
 }
 
 .home-section1 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .home-section2 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .home-section3 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .home-section4 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .home-section5 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .home-section-icons {
   margin-left: 1rem;
-  width: 15%;
-
+  width: 11%;
 }
-
-/*.sidebar-section {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30%;
-}*/
 
 .sidebar-headings {
   margin-left: 1rem;
 }
-
-/*.home-headings {
-  color: #ACB5C5;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-around;
-  width: 70%;
-}
-*/
-/*admin sectionnnn*/
 
 .admin {
   border-bottom: .3rem solid #30394A;
@@ -155,78 +162,59 @@ p {
   width: 100%;
 }
 
-/*.admin-sidebar-section {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-around;
-  width: 30%;
-}*/
-
 .admin-icons {
   margin-left: 1rem;
-  width: 14%;
+  width: 11%;
 }
-/*
-.admin-section-heading {
-  color: #ACB5C5;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-around;
-  width: 70%;
-}*/
 
 .admin-section1 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .admin-section2 {
-      display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .admin-section3 {
-      display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .admin-section4 {
-     display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .admin-section5 {
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .admin-headings {
   margin-left: 1rem;
 }
-
 
 /*categoriesssss section*/
 
@@ -240,7 +228,7 @@ p {
 
 .color-boxes {
   margin-left: 1rem;
-  width: 14%;
+  width: 11%;
 }
 
 .categories-heading {
@@ -248,64 +236,45 @@ p {
 }
 
 .box-section1 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .box-section2 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .box-section3 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .box-section4 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 #hover-state:hover {
   background-color: #303848;
   cursor: pointer;
 }
-/*.colored-box-section {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-around;
-  width: 30%;*/
-/*}*/
-/*
-.box-heading-section {
-  color: #ACB5C5;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-around;
-  width: 70%;
-}*/
-
-/*top searchhhhhh baarrrrrrrrrrr*/
 
 .search-heading {
   background-color: white;
@@ -381,12 +350,12 @@ p {
 }
 
 .left-upper-heading {
-  padding-left: 2.5rem;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 50%;
   height: 100%;
+  justify-content: center;
+  padding-left: 2.5rem;
+  width: 50%;
 }
 
 .preview-point {
@@ -464,11 +433,14 @@ p {
 }
 
 .left-graphs {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 60%;
   height: 100%;
+  width: 60%;
+}
+
+.top-circle-graphs {
+  align-items: center;
+  display: flex;
+  height: 75%;
 }
 
 .single-chart {
@@ -520,12 +492,22 @@ p {
   text-anchor: middle;
 }
 
-.left-graph-button {
-
+.bottom-left-graph-button {
+  display: flex;
+  justify-content: center;
 }
 
-.graph-button {
+.left-graph-button {
+  background-color: #f7f7f7;
+  border-radius: 26%;
+  padding: .5rem;
+}
 
+.right-graph-button {
+  background-color: #f7f7f7;
+  border-radius: 26%;
+  margin-top: 3.7rem;
+  padding: 0.5rem;
 }
 
 .right-graphs {
@@ -577,7 +559,6 @@ p {
   align-items: center;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -613,7 +594,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -640,7 +620,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -667,7 +646,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -694,7 +672,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -721,7 +698,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -748,7 +724,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -776,7 +751,6 @@ p {
   border-bottom: .2rem solid #f7f7f7;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -810,7 +784,6 @@ p {
   align-items: center;
   display: flex;
   height: 100%;
-  /*justify-content: center;*/
   width: 25%;
 }
 
@@ -1075,6 +1048,10 @@ p {
     width: 100%;
   }
 
+  .right-graph-button {
+    margin-top: 0;
+  }
+
   .search-images {
     width: 20%;
   }
@@ -1092,9 +1069,12 @@ p {
   }
 
   .social-media-icons {
-    width: 35%;
+    width: 45%;
   }
 
+  .right-icons {
+    width: 13%;
+  }
 }
 
 @media screen and (max-width: 740px) {
@@ -1139,6 +1119,7 @@ p {
 
   .right-graph-image {
     height: 85%;
+    margin-bottom: .8rem;
   }
 
   .card-ideas {
@@ -1165,6 +1146,19 @@ p {
   .search-images {
     width: 20%;
   }
+
+  .social-media-icons {
+    width: 30%;
+  }
+
+  .social-media-text-color {
+    font-size: 1rem;
+  }
+
+  .hiring-image {
+    height: 80%;
+    width: 15%;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -1187,8 +1181,8 @@ p {
   .right-upper-heading {
     align-items: center;
     justify-content: center;
-    width: 100%;
     padding-right: 0;
+    width: 100%;
   }
 
   .left-upper-heading {
@@ -1209,28 +1203,44 @@ p {
 }
 
 @media screen and (max-width: 520px) {
+  .container {
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: minmax(16.7rem, auto);
+  grid-template-areas: 
+  "search search" 
+  "graphs graphs"
+  "graphs graphs"
+  "main main"
+  "main main"
+  "main main"
+  "main main"
+  "main main"
+  "main main";
+  }
+
   .search-images {
     width: 25%;
   }
 
   .left-job-content {
-    width: 35%
+    width: 35%;
   }
 
   .right-job-content {
-    width: 65%
+    width: 65%;
   }
 
   .left-position-title {
-    width: 35%
+    width: 35%;
   }
 
   .right-position-title {
-    width: 65%
+    width: 65%;
   }
 
   .left-location {
-    width: 35%
+    width: 35%;
   }
 
   .right-location {
@@ -1254,7 +1264,7 @@ p {
   }
 
   .left-status {
-    width: 35%
+    width: 35%;
   }
 
   .right-status {
@@ -1299,23 +1309,36 @@ p {
   }
 
   .job-content-button {
-    width: 15%;
     background-size: 30% 100%;
+    width: 15%;
   }
 } 
  
 @media screen and (max-width: 422px) {
+
+  p {
+    font-size: .7rem;
+  }
+
+  .widget-idea {
+    margin-bottom: 1rem;
+  }
+
+  .link-idea {
+    margin-bottom: 1rem;
+  }
+
   .search-images {
-    padding: .2rem;
-    width: 15%;
-    margin-right: .2rem;
     border-right: none;
+    padding: .2rem;
+    margin-right: .2rem;
+    width: 15%;
   }
 
   .right-icons {
-    width: 20%;
-    padding: 0;
     border: none;
+    padding: 0;
+    width: 20%;
   }
 
   .summary-icons {
@@ -1328,6 +1351,39 @@ p {
 
   .bottom-lower-heading {
     display: none;
+  }
+
+  .right-description {
+    padding-right: .4rem;
+  }
+
+  .right-main-content-text {
+    padding-left: .5rem;
+  }
+
+  .job-content-button {
+    margin-left: .5rem;
+    width: 20%;
+  }
+
+  .main-content-color {
+    font-size: .8rem;
+  }
+
+  .hiring-image {
+    width: 20%
+  }
+
+  .link-input {
+    height: 50%;
+  }
+
+  .link-button {
+    height: 50%;
+  }
+
+  .social-media-icons {
+    width: 42%;
   }
 }
 
